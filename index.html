@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Proyecto-CV</title>
+
+
+    <!--] ======= ( Open Graph / Facebook ) ======= [-->
+
+    <meta property="og:url"                content="" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="Curriculum vitae" />
+    <meta property="og:description"        content="En esta página podras ver el proyecto final de Ignacio Bejarano para el curso de Argentina programa" />
+    <meta property="og:image"              content="assets/imgs/ar-prog_icon.png" />
+    <meta property ="og:site_name"         content="CurriculumVitae"/>
+
+
+    <!--] ======= ( Linkeos con archivos CSS ) ======= [-->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="assets/css/fontawesome.css" rel="stylesheet">
+    <link href="assets/css/brands.css" rel="stylesheet">
+    <link href="assets/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+
+    <!--] ======= ( Icono ) ======= [-->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/ar-prog_icon.png" />
+
+</head>
+
+
+<body>
+
+
+
+
+
+    <!--] ======= ( Inicio del Header ) ======= [-->
+
+
+    <header class="header">
+        <section class="flex" >
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <a href="#home" class="logo"> Ignacio Joaquin Bejarano</a>
+        
+            <nav class="navbar">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Jkiming/"><i class="fa-brands fa-github"></i></a>
+            </nav>
+        </section>
+
+
+    </header>
+
+
+
+
+
+    <!--] ======= ( About me Section ) ======= [-->
+
+
+    <!-- Todos los datos mencionados son meramente imaginarios -->
+
+    <section id="home" class="cvitae">
+        <h2 class="left-text">Joaquin Ignacio<br>Bejarano</h2>
+        <h2 class="middle-text">Front-end<br>Developer</h2>
+        <img src="assets/imgs/crossed_arms.png" alt="" class="front-img">
+    </section>
+
+    <section id="about">
+        <div class="fila">
+            <div class="col">
+                <i class="fa-solid fa-user"></i>
+                <h2>
+                    Sobre Mí
+                </h2>
+                <p>Front-end Developer originario de Santiago del Estero, en busqueda de oportunidades y nuevas ofertas.</p>
+            </div>
+
+            <div class="col">
+                <i class="fa-solid fa-hand-sparkles"></i>
+                <h2>
+                    Experiencias
+                </h2>
+                <p>5 años de Experiencia en desarrollo Web en multinacionales <br>Ex-empleado de Google. </p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+<!--] ======= ( Contact Section ) ======= [-->
+
+
+    <section class="ocultate" id="maincontact">
+        <div class="acomodate">
+            <h2>Para ofertas de trabajo</h2>
+            <button class="showbtn">Contacto</button>
+        </div>
+    </section>
+
+
+
+
+
+    <!--] ======= ( Skills Section ) ======= [-->
+
+
+    <!-- Todos los datos mencionados son meramente imaginarios -->
+
+    <section class="skills" id="skills">
+        <h2>Habilidades</h2>
+        <div class="col hidden">
+            <i class="fa-brands fa-python"></i>
+            <p>Python 100%</p>
+        </div>
+
+        <div class="col hidden">
+            <i class="fa-brands fa-php"></i>
+            <p>PHP 100%</p>
+        </div>
+
+        <div class="col hidden">
+            <i class="fa-brands fa-square-js"></i>
+            <p>JavaScript 100%</p>
+        </div>
+
+        <div class="col hidden">
+            <i class="fa-brands fa-react"></i>
+            <p>React 100%</p>
+        </div>
+
+        <div class="col hidden">
+            <i class="fa-brands fa-java"></i>
+            <p>Java 100%</p>
+        </div>
+        
+        
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!--] ======= ( Seccion del Formulario ) ======= [-->
+
+    <section class="form" id="formsect">
+        <div class="contact hiddenform" >
+            <form action="" method="post">
+                <button class="closebtn" type="button">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <input class="input" type="text" placeholder="Nombre">
+                <input class="input" type="text" placeholder="Apellido">
+                <input class="input" id="correo" type="email" placeholder="tucorreo@example.com" required>
+                <input class="input" type="number" placeholder="Número de Teléfono">
+                <textarea class="input textarea-class" type="text" placeholder="Escribe un mensaje" required></textarea>
+                
+                <input class="btn" id="botoncito" value="Enviar" type="submit" hidden onclick="alert('El Mensaje se ha enviado correctamente')"></input>
+
+                </form>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!--] ======= ( Comienzo del Footer ) ======= [-->
+
+    <footer class="footer">
+
+        <section class="grid">
+            <div class="box">
+                <h3>Links rapidos</h3>
+                <a href="#home"><i class="fa-solid fa-angles-right"></i>Inicio</a>
+                <a href="#about"><i class="fa-solid fa-angles-right"></i>Datos</a>
+                <a href="#maincontact"><i class="fa-solid fa-angles-right"></i>Contacto</a>
+                <a href="#skills"><i class="fa-solid fa-angles-right"></i>Habilidades</a>
+                
+            </div>
+
+            <div class="box">
+                <h3>Redes Sociales</h3>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i>Linkedin</a>
+                <a href="https://github.com/Jkiming"><i class="fa-brands fa-github"></i>GitHub</a>
+            </div>
+
+        
+
+        </section>
+
+
+            <div class="credit">&copy; copyright @ 2023<strong> by Ignacio Bejarano </strong>| todos los derechos reservados
+            </div>
+
+    </footer>
+
+
+
+
+    <!--] ======= ( Linkeo del archivo Js ) ======= [-->
+
+    <script src="js/script.js"></script>
+
+    </body>
+</html>
