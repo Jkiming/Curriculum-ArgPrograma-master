@@ -168,7 +168,7 @@ section{
 
 #home {
     position: relative;
-    background: url(/assets/imgs/wallpaper.jpg);
+    background: url(../assets/imgs/wallpaper.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -967,7 +967,7 @@ h2{
     #about .fila{
         display: flex;
         margin-top: 30px;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     #about .fila i{
